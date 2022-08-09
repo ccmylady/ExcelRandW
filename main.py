@@ -10,7 +10,8 @@ logging.basicConfig(level=logging.INFO,format='%(asctime)s - %(levelname)s - %(m
 logging.info('程序开始')
 logging.info('数据汇集工具，第1版，20220622。\n'
              '将分所填充后的表格某些项汇总填入总表,打开1个文件保存1次模式\n'
-             '注意事项：1）所有表格前内容必须一致\n'
+             '注意事项：'
+             '1）所有表格前内容必须一致\n'
              '2）序号必须是唯一的\n'
              '3) 数据源文件必须是xls格式，转化后写入文件必须是xlsx格式\n'
              '4) 表名固定 \n'
